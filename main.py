@@ -213,3 +213,7 @@ elif page == "7️⃣ Predict with Model B":
         pred = int(prob >= best_threshold_B)
         st.write(f"Probability: {prob:.2f}")
         st.success("Likely to STAY" if pred == 0 else "⚠️ Likely to LEAVE!")
+
+
+
+# ===========================================# ✅ Run the app
