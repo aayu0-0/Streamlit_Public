@@ -23,7 +23,7 @@ warnings.filterwarnings("ignore")
 # ===========================================
 @st.cache_data
 def load_data():
-    df = pd.read_csv("data/watson_healthcare_modified.csv")
+    df = pd.read_csv("watson_healthcare_modified.csv")
     df = df.drop(columns=["EmployeeID", "EmployeeCount", "Over18", "StandardHours"])
     df = df.drop_duplicates()
     df["Attrition"] = df["Attrition"].map({"No": 0, "Yes": 1})
