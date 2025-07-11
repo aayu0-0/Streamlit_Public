@@ -4,5 +4,7 @@ numpy
 seaborn
 matplotlib
 scikit-learn
+imblearn
 xgboost
-imbalanced-learn
+warmings
+sklearn
